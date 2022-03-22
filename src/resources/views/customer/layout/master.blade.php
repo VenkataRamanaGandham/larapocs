@@ -106,8 +106,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <!--autocomplete end-->
     <!--wysiwyg start-->
-    <script src="{{ asset('samples/assets/vendor_components/ckeditor/ckeditor.js' ) }}"></script>
-    <script src="{{ asset('samples/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js' ) }}"></script>
+    <script src="{{ asset('/admin/js/ckeditor/ckeditor.js' ) }}"></script>
+    <script src="{{ asset('admin/js/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js' ) }}"></script>
     <!--wysiwyg end-->
 
     <!-- Select 2 scripts and Style files -->
