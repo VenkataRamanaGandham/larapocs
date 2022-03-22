@@ -1,0 +1,23 @@
+{
+    "name": "lmate/customer",
+    "description": "It is a customer package",
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lmate\\Customer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lmate\\Customer\\CustomerServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "dompdf/dompdf": "^1.2",
+        "kyslik/column-sortable": "^6.4"
+    }
+}
