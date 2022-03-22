@@ -29,6 +29,6 @@ class CustomerServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__ . '/config/validations.php', 'customer');
         $this->publishes([
             __DIR__ . '/public' => public_path('/'),
-        ], 'public');
+        ], 'laravel-assets');
     }
 }
