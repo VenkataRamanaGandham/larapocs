@@ -1,5 +1,5 @@
 {
-    "name": "lmate/customer",
+    "name": "pnws/customer",
     "description": "It is a customer package",
     "minimum-stability": "dev",
     "type": "library",
